@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,107 +10,122 @@
     <script src="https://kit.fontawesome.com/22da36f2f3.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<body class="pt-5">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/images/logo.png" alt="Logo" height="50">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mis Habilidades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" alt="Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Habilidades">Mis Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <header class="container">
+    <header class="container my-5" id="Inicio">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-6">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Id inventore labore esse ad commodi? Dolorum atque
-                    omnis, voluptate suscipit reiciendis doloribus beatae 
-                    enim rem culpa, explicabo quis et rerum aut.</p>
+            <div class="col-12 col-sm-12 col-md-6 text-center">
+                <img src="./assets/images/developer.svg" alt="" class="w-50">
             </div>
             <div class="col-12 col-sm-12 col-md-6">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                <h1>Hola, soy</h1>
+                <h2>Desarrollador FrontEnd</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Id inventore labore esse ad commodi? Dolorum atque
-                    omnis, voluptate suscipit reiciendis doloribus beatae 
+                    omnis, voluptate suscipit reiciendis doloribus beatae
                     enim rem culpa, explicabo quis et rerum aut.</p>
+                <button class="btn btn-primary"><span>Contáctame</span></button>
             </div>
         </div>
-      </header>
+    </header>
 
-      <main class="container">
-        <h2>Mis Habilidades</h2>
+    <main class="container my-5">
+        <h2 class="mt-5" id="Habilidades">Mis Habilidades</h2>
         <div class="row">
             <div class="col-6 row">
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-html5"></i>
-                    HTML
+                    <p>
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    CSS
+                    <p>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-sass"></i>
-                    Sass
+                    <p>
+                        <i class="fa-brands fa-sass"></i>
+                        <span>Sass</span>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-bootstrap"></i>
-                    Bootstrap
+                    <p>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </p>
                 </div>
             </div>
             <div class="col-6 row">
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-git-alt"></i>
-                    Git
+                    <p>
+                        <i class="fa-brands fa-git-alt"></i>
+                        <span>Git</span>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-github"></i>
-                    GitHub
+                    <p>
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-js"></i>
-                    JavaScript
+                    <p>
+                        <i class="fa-brands fa-js"></i>
+                        <span>JavaScript</span>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <i class="fa-brands fa-vuejs"></i>
-                    Vue
+                    <p>
+                        <i class="fa-brands fa-vuejs"></i>
+                        <span>Vue</span>
+                    </p>
                 </div>
             </div>
         </div>
 
-        <h2>Mis Proyectos</h2>
+        <h2 id="Proyectos" class="mt-5">Mis Proyectos</h2>
         <div class="row">
             <div class="col-6 col-sm-6 col-md-3">proyecto</div>
             <div class="col-6 col-sm-6 col-md-3">proyecto</div>
             <div class="col-6 col-sm-6 col-md-3">proyecto</div>
             <div class="col-6 col-sm-6 col-md-3">proyecto</div>
         </div>
-      </main>
+    </main>
 
-      <footer class="container">
-        <h2>Contáctame</h2>
+    <footer class="container my-5" id="Contacto">
+        <h2 class="mt-5">Contáctame</h2>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6">
                 formulario
@@ -122,6 +138,72 @@
                 <i class="fa-brands fa-instagram"></i>
             </div>
         </div>
-      </footer>
+    </footer>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem atque rem quibusdam aut est, esse
+        porro accusamus provident facilis expedita ipsam labore dignissimos repudiandae vitae, animi quasi? Ipsum
+        perspiciatis repellendus, aliquid, quae illum similique eveniet minima est excepturi quam illo commodi ducimus
+        fugiat rem totam quasi expedita minus dolorem quidem modi natus incidunt consectetur alias! Obcaecati, a. Minus
+        dolores accusamus facilis maiores officiis reprehenderit sit a molestias id reiciendis! Saepe sit, perspiciatis
+        qui non fuga blanditiis ex dolores cupiditate eligendi! Nihil mollitia inventore eveniet adipisci accusantium
+        iusto modi quam delectus eius beatae reprehenderit aliquid aperiam, numquam architecto corporis deserunt,
+        possimus corrupti sint ab cum praesentium quis soluta! Quis itaque amet adipisci ratione id reprehenderit error
+        quod. Sapiente similique hic doloribus, recusandae totam accusamus vel voluptatum praesentium, voluptates ipsum
+        perferendis nihil commodi. Eum at vel quidem nisi, animi laudantium. Quibusdam magnam doloribus nesciunt
+        blanditiis sit omnis, voluptate similique distinctio harum modi facilis, qui debitis iusto et, amet repellendus
+        ea. Repellendus sequi veritatis nulla, dolores, voluptas nostrum et similique aliquid nihil mollitia quae sed!
+        Neque quod eum quis culpa voluptates corrupti. Error quasi sunt quis debitis, doloremque eaque deserunt itaque
+        totam, facere temporibus vitae blanditiis dignissimos nulla. Reprehenderit minus enim harum excepturi sunt quis
+        possimus eos ea. Eos eligendi quaerat ullam voluptas praesentium suscipit tempora quibusdam ab libero esse
+        soluta ea illum laboriosam nihil cupiditate ad exercitationem ut, consequatur autem veniam, accusamus
+        recusandae. Quibusdam rerum veritatis amet eius unde quae, doloribus ut cupiditate magnam illo, inventore
+        perferendis repudiandae perspiciatis neque natus error suscipit quas reprehenderit saepe explicabo, temporibus
+        alias. Vel libero dignissimos perferendis nobis! Ratione eos libero exercitationem impedit mollitia alias
+        debitis magnam reprehenderit nam! Aliquid optio libero modi temporibus, dolore soluta sint ullam ipsam ratione
+        mollitia suscipit hic nihil ex esse totam dolorum, facere eos? Deleniti soluta quae iste ab adipisci molestias
+        unde sit, minus ducimus! Voluptatibus recusandae libero esse magni consequatur eveniet sit, animi omnis,
+        reprehenderit facilis quisquam. Quibusdam exercitationem ex sed vero dolores molestiae fugit reprehenderit! Unde
+        beatae doloribus rem provident dolorem maxime consequatur perferendis aperiam amet ab est, quos fugit. Tenetur
+        voluptatum, saepe ipsam facilis dicta quod iste facere maiores cumque porro animi sint illum labore repellat et
+        at molestias? Eius aspernatur vero ratione! Maxime quaerat unde enim nesciunt! Quod quidem reprehenderit
+        reiciendis recusandae, dolores ab dolore accusamus corporis explicabo autem iure eum ducimus facere cupiditate
+        asperiores sunt adipisci! Possimus, ut. Reprehenderit fugit incidunt dolores commodi numquam voluptas
+        perferendis illo quidem doloremque dicta? Excepturi incidunt delectus placeat odit corrupti deserunt inventore
+        eligendi explicabo eum ad tenetur ipsum, harum, facere aut animi quam tempora! Consequuntur facere impedit atque
+        inventore, deleniti accusamus officia sed, numquam laborum fugit vero! Ea, incidunt saepe adipisci nihil
+        molestias inventore distinctio aspernatur eligendi minima. Molestias sint id magnam aliquam dolor dolore iure
+        officia officiis possimus dolorum? Saepe reprehenderit earum labore voluptatem amet accusantium dolores, placeat
+        libero odio, voluptatum rerum deserunt quibusdam quas aperiam numquam impedit ex et eos esse ipsa minus sint?
+        Itaque, iste vel doloribus aliquid minima quibusdam numquam cum esse non fugit nulla velit adipisci ut, dolorum
+        est praesentium! Sapiente inventore deleniti rerum quam ratione non! Laboriosam eveniet eos sint, pariatur
+        laborum vel eaque mollitia eligendi? Laudantium eum fugiat quae. Ab, nam ea esse nisi aspernatur vero illum
+        dignissimos recusandae dicta explicabo facilis culpa porro sequi ratione saepe dolor? Deleniti error, corporis
+        dicta vitae fugiat nisi nulla voluptas sint soluta nemo atque ex incidunt vero repellat perspiciatis inventore
+        accusamus odio molestias sequi magni recusandae. Officiis, quam! Sint magni, cumque eum dolor eos mollitia
+        possimus est numquam soluta iure, alias laboriosam esse provident sapiente unde asperiores quo quasi expedita
+        iste. Illo odio quis repellendus ipsum quo numquam non aperiam rerum officia ea eaque dignissimos, vero quod
+        perferendis esse blanditiis, obcaecati nam quisquam excepturi modi voluptatibus ex labore? Earum, officiis
+        dolorem, recusandae porro quos provident voluptas alias ducimus, asperiores veritatis quod sapiente ipsa
+        nesciunt et expedita praesentium cumque sint ea vitae hic commodi distinctio placeat? Consectetur hic laborum ad
+        voluptatibus aperiam accusamus sit repudiandae quaerat! Hic atque vero accusamus debitis. Nesciunt nostrum,
+        cumque iusto iure ipsam perferendis dolore et sapiente animi accusantium dolores optio consequuntur voluptatem
+        odit magni rem voluptatum aut ea quibusdam non. Quam facilis delectus, laudantium, fugit sequi asperiores
+        praesentium atque quia magni accusamus earum inventore libero consequatur cum expedita necessitatibus! Rem
+        sapiente obcaecati aperiam reprehenderit reiciendis dolor corporis tenetur sint quaerat nihil nam distinctio
+        alias aliquam ut perferendis eveniet adipisci harum, ducimus doloribus perspiciatis! Vero, alias. Culpa deleniti
+        debitis quia laborum tempore cupiditate? Exercitationem sit consequuntur facere. Consequatur corporis beatae
+        voluptatem distinctio! Impedit, a saepe cumque ducimus sunt quibusdam eum, quos, non doloribus corrupti
+        provident commodi reiciendis dolorem eaque? Fugit ipsam quibusdam aperiam quia distinctio ex nesciunt fugiat
+        perspiciatis eligendi, nostrum alias rerum, nulla, obcaecati molestias dolorum fuga adipisci ab iste autem
+        architecto delectus. Molestiae minus debitis consequatur nobis omnis ratione ab quia saepe, nam, sunt aliquam
+        itaque harum dolorum dolores qui, facilis illo. Vero explicabo culpa veniam tenetur, quibusdam vitae sunt
+        praesentium, nesciunt, ipsa nam at deleniti ex. Aliquam maiores totam autem voluptatum ea doloribus laboriosam
+        veniam cupiditate consequatur? Nemo, nostrum. Voluptate cum rerum blanditiis hic, modi odio vel nemo. Culpa,
+        voluptatibus neque rem et totam ut expedita animi corrupti laborum voluptate atque, est, molestias numquam
+        consequuntur aliquid quibusdam? Magnam sapiente nostrum fuga voluptates ipsum harum, voluptate cupiditate
+        repellat ratione ad magni debitis amet sequi ex temporibus accusamus excepturi! Incidunt voluptatem omnis
+        voluptatum rerum libero cupiditate voluptatibus sunt aliquam suscipit.
+    </p>
 </body>
+
 </html>
