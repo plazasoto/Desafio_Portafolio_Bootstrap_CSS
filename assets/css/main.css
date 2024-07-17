@@ -11964,4 +11964,29 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+/* Colores de íconos */
+.icon--html {
+  color: #E93E30;
+}
+.icon--css {
+  color: #299ED5;
+}
+.icon--sass {
+  color: #CD6EA2;
+}
+.icon--bootstrap {
+  color: #563D7C;
+}
+.icon--git {
+  color: #F05030;
+}
+.icon--github {
+  color: #212529;
+}
+.icon--javascript {
+  color: #F7E018;
+}
+.icon--vue {
+  color: #67C770;
 }/*# sourceMappingURL=main.css.map */

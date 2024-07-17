@@ -1,0 +1,36 @@
+/* Colores de íconos */
+$color-html: #E93E30;//#DD4B25
+$color-css: #299ED5;//#379AD6
+$color-sass: #CD6EA2;
+$color-bootstrap: #563D7C;//#533B78
+$color-git: #F05030;
+$color-github: #212529;
+$color-javascript: #F7E018;//#E8D44D
+$color-vue : #67C770;//#3FB27F
+
+.icon{
+    &--html{
+        color:$color-html;
+    }
+    &--css{
+        color:$color-css;
+    }
+    &--sass{
+        color:$color-sass;
+    }
+    &--bootstrap{
+        color:$color-bootstrap;
+    }
+    &--git{
+        color:$color-git;
+    }
+    &--github{
+        color:$color-github;
+    }
+    &--javascript{
+        color:$color-javascript;
+    }
+    &--vue{
+        color:$color-vue;
+    }
+}
