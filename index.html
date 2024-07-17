@@ -66,7 +66,7 @@
     </header>
 
     <main class="container my-5">
-        <h2 class="mt-5" id="Habilidades">Mis Habilidades</h2>
+        <h2 class="mt-5 text-center" id="Habilidades">Mis Habilidades</h2>
         <div class="row">
             <div class="col-6 row">
                 <div class="col-12 col-sm-12 col-md-3">
@@ -122,7 +122,7 @@
             </div>
         </div>
 
-        <h2 id="Proyectos" class="mt-5">Mis Proyectos</h2>
+        <h2 id="Proyectos" class="mt-5 text-center">Mis Proyectos</h2>
         <div class="row">
             <div class="col-6 col-sm-6 col-md-3">
                 <div class="card" style="width: 18rem;">
@@ -131,10 +131,7 @@
                         <h5 class="card-title">Meet & Coffee</h5>
                     </div>
                 </div>
-                <!-- 
-                <img src="./assets/images/meetcoffee.png" alt="" class="w-25">
-                proyecto
-                -->
+                
             </div>
             <div class="col-6 col-sm-6 col-md-3">
                 <div class="card" style="width: 18rem;">
@@ -164,17 +161,50 @@
     </main>
 
     <footer class="container my-5" id="Contacto">
-        <h2 class="mt-5">Contáctame</h2>
+        <h2 class="mt-5 text-center">Contáctame</h2>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6">
-                formulario
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-6">
+                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3 col-6">
+                            <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Tu Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="inputMensaje" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary col-12 col-sm-12 col-md-4">
+                        Enviar
+                    </button>
+                </form>
             </div>
             <div class="col-12 col-sm-12 col-md-6">
-                <i class="fa-solid fa-phone"></i>
-                <i class="fa-solid fa-envelope"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+56912345678</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>***@gmail.com</span>
+                </p>
+                <p>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>plazasoto</span>
+                </p>
+                <p>
+                    <i class="fa-brands fa-github"></i>
+                    <span>A</span>
+                </p>
+                <p>
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>B</span>
+                </p>
             </div>
         </div>
     </footer>
