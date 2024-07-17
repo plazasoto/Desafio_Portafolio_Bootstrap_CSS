@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="pt-5">
+<body class="pt-5 bg-secondary">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#top">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Habilidades">Mis Habilidades</a>
@@ -40,7 +40,7 @@
             </div>
         </div>
     </nav>
-
+    
     <header class="container my-5" id="Inicio">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 text-center">
@@ -48,7 +48,7 @@
             </div>
             <div class="col-12 col-sm-12 col-md-6">
                 <h1>Hola, soy Pablo Plaza</h1>
-                <h2>Desarrollador FrontEnd</h2>
+                <h2 class="text-primary">Desarrollador FrontEnd</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Id inventore labore esse ad commodi? Dolorum atque
                     omnis, voluptate suscipit reiciendis doloribus beatae
@@ -56,39 +56,40 @@
                 </p>
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6">
-                        <button class="btn btn-primary w-100">
+                        <button class="btn btn-primary w-100 text-white">
                             <span>Contáctame</span>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="Habilidades"></div>
     </header>
 
-    <main class="container my-5">
-        <h2 class="mt-5 text-center" id="Habilidades">Mis Habilidades</h2>
+    <main class="container pt-1">
+        <h2 class="mt-5 text-center">Mis Habilidades</h2>
         <div class="row">
             <div class="col-6 row">
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-html5 icon--html"></i>
                         <span>HTML</span>
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-css3-alt icon--css"></i>
                         <span>CSS</span>
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-sass icon--sass"></i>
                         <span>Sass</span>
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-bootstrap icon--bootstrap"></i>
                         <span>Bootstrap</span>
                     </p>
@@ -96,37 +97,38 @@
             </div>
             <div class="col-6 row">
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-git-alt icon--git"></i>
                         <span>Git</span>
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-github icon--github"></i>
                         <span>GitHub</span>
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-js icon--javascript"></i>
                         <span>JavaScript</span>
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3">
-                    <p>
+                    <p class="text-start text-nowrap">
                         <i class="fa-brands fa-vuejs icon--vue"></i>
                         <span>Vue</span>
                     </p>
                 </div>
             </div>
+            <div id="Proyectos" class="mb-4"></div>
         </div>
 
-        <h2 id="Proyectos" class="mt-5 text-center">Mis Proyectos</h2>
-        <div class="row">
+        <h2 class="mt-5 text-center">Mis Proyectos</h2>
+        <div class="row gx-5 gy-2">
             <div class="col-6 col-sm-6 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/images/meetcoffee.png" class="card-img-top" alt="...">
+                <div class="card border-0 bg-secondary" style="width: 18rem;">
+                    <img src="./assets/images/meetcoffee.png" class="card-img-top w-75" alt="Proyecto 1">
                     <div class="card-body">
                         <h5 class="card-title">Meet & Coffee</h5>
                     </div>
@@ -134,24 +136,24 @@
                 
             </div>
             <div class="col-6 col-sm-6 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/images/meetcoffee.png" class="card-img-top" alt="...">
+                <div class="card border-0 bg-secondary" style="width: 18rem;">
+                    <img src="./assets/images/meetcoffee.png" class="card-img-top w-75" alt="Proyecto 2">
                     <div class="card-body">
                         <h5 class="card-title">Meet & Coffee</h5>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/images/meetcoffee.png" class="card-img-top" alt="...">
+                <div class="card border-0 bg-secondary" style="width: 18rem;">
+                    <img src="./assets/images/meetcoffee.png" class="card-img-top w-75" alt="Proyecto 3">
                     <div class="card-body">
                         <h5 class="card-title">Meet & Coffee</h5>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-6 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/images/meetcoffee.png" class="card-img-top" alt="...">
+                <div class="card border-0 bg-secondary" style="width: 18rem;">
+                    <img src="./assets/images/meetcoffee.png" class="card-img-top w-75" alt="Proyecto 4">
                     <div class="card-body">
                         <h5 class="card-title">Meet & Coffee</h5>
                     </div>
@@ -179,7 +181,7 @@
                     <div class="mb-3">
                         <textarea class="form-control" id="inputMensaje" placeholder="Escribe tu mensaje"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary col-12 col-sm-12 col-md-4">
+                    <button type="submit" class="btn btn-primary col-12 col-sm-12 col-md-4 text-white">
                         Enviar
                     </button>
                 </form>
@@ -187,7 +189,7 @@
             <div class="col-12 col-sm-12 col-md-6">
                 <p>
                     <i class="fa-solid fa-phone"></i>
-                    <span>+56912345678</span>
+                    <span>+5699261****</span>
                 </p>
                 <p>
                     <i class="fa-solid fa-envelope"></i>
@@ -195,86 +197,21 @@
                 </p>
                 <p>
                     <i class="fa-brands fa-linkedin"></i>
-                    <span>plazasoto</span>
+                    <span>pablo-p-564600183</span><!--https://www.linkedin.com/in/pablo-p-564600183/-->
                 </p>
                 <p>
                     <i class="fa-brands fa-github"></i>
-                    <span>A</span>
+                    <span>plazasoto</span><!--https://github.com/plazasoto-->
                 </p>
                 <p>
                     <i class="fa-brands fa-instagram"></i>
-                    <span>B</span>
+                    <span>ypyzpwspkma</span><!--https://www.instagram.com/ypyzpwspkma/-->
                 </p>
             </div>
         </div>
     </footer>
 
     <script type="module" src="./assets/js/script.js"></script>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem atque rem quibusdam aut est, esse
-        porro accusamus provident facilis expedita ipsam labore dignissimos repudiandae vitae, animi quasi? Ipsum
-        perspiciatis repellendus, aliquid, quae illum similique eveniet minima est excepturi quam illo commodi ducimus
-        fugiat rem totam quasi expedita minus dolorem quidem modi natus incidunt consectetur alias! Obcaecati, a. Minus
-        dolores accusamus facilis maiores officiis reprehenderit sit a molestias id reiciendis! Saepe sit, perspiciatis
-        qui non fuga blanditiis ex dolores cupiditate eligendi! Nihil mollitia inventore eveniet adipisci accusantium
-        iusto modi quam delectus eius beatae reprehenderit aliquid aperiam, numquam architecto corporis deserunt,
-        possimus corrupti sint ab cum praesentium quis soluta! Quis itaque amet adipisci ratione id reprehenderit error
-        quod. Sapiente similique hic doloribus, recusandae totam accusamus vel voluptatum praesentium, voluptates ipsum
-        perferendis nihil commodi. Eum at vel quidem nisi, animi laudantium. Quibusdam magnam doloribus nesciunt
-        blanditiis sit omnis, voluptate similique distinctio harum modi facilis, qui debitis iusto et, amet repellendus
-        ea. Repellendus sequi veritatis nulla, dolores, voluptas nostrum et similique aliquid nihil mollitia quae sed!
-        Neque quod eum quis culpa voluptates corrupti. Error quasi sunt quis debitis, doloremque eaque deserunt itaque
-        totam, facere temporibus vitae blanditiis dignissimos nulla. Reprehenderit minus enim harum excepturi sunt quis
-        possimus eos ea. Eos eligendi quaerat ullam voluptas praesentium suscipit tempora quibusdam ab libero esse
-        soluta ea illum laboriosam nihil cupiditate ad exercitationem ut, consequatur autem veniam, accusamus
-        recusandae. Quibusdam rerum veritatis amet eius unde quae, doloribus ut cupiditate magnam illo, inventore
-        perferendis repudiandae perspiciatis neque natus error suscipit quas reprehenderit saepe explicabo, temporibus
-        alias. Vel libero dignissimos perferendis nobis! Ratione eos libero exercitationem impedit mollitia alias
-        debitis magnam reprehenderit nam! Aliquid optio libero modi temporibus, dolore soluta sint ullam ipsam ratione
-        mollitia suscipit hic nihil ex esse totam dolorum, facere eos? Deleniti soluta quae iste ab adipisci molestias
-        unde sit, minus ducimus! Voluptatibus recusandae libero esse magni consequatur eveniet sit, animi omnis,
-        reprehenderit facilis quisquam. Quibusdam exercitationem ex sed vero dolores molestiae fugit reprehenderit! Unde
-        beatae doloribus rem provident dolorem maxime consequatur perferendis aperiam amet ab est, quos fugit. Tenetur
-        voluptatum, saepe ipsam facilis dicta quod iste facere maiores cumque porro animi sint illum labore repellat et
-        at molestias? Eius aspernatur vero ratione! Maxime quaerat unde enim nesciunt! Quod quidem reprehenderit
-        reiciendis recusandae, dolores ab dolore accusamus corporis explicabo autem iure eum ducimus facere cupiditate
-        asperiores sunt adipisci! Possimus, ut. Reprehenderit fugit incidunt dolores commodi numquam voluptas
-        perferendis illo quidem doloremque dicta? Excepturi incidunt delectus placeat odit corrupti deserunt inventore
-        eligendi explicabo eum ad tenetur ipsum, harum, facere aut animi quam tempora! Consequuntur facere impedit atque
-        inventore, deleniti accusamus officia sed, numquam laborum fugit vero! Ea, incidunt saepe adipisci nihil
-        molestias inventore distinctio aspernatur eligendi minima. Molestias sint id magnam aliquam dolor dolore iure
-        officia officiis possimus dolorum? Saepe reprehenderit earum labore voluptatem amet accusantium dolores, placeat
-        libero odio, voluptatum rerum deserunt quibusdam quas aperiam numquam impedit ex et eos esse ipsa minus sint?
-        Itaque, iste vel doloribus aliquid minima quibusdam numquam cum esse non fugit nulla velit adipisci ut, dolorum
-        est praesentium! Sapiente inventore deleniti rerum quam ratione non! Laboriosam eveniet eos sint, pariatur
-        laborum vel eaque mollitia eligendi? Laudantium eum fugiat quae. Ab, nam ea esse nisi aspernatur vero illum
-        dignissimos recusandae dicta explicabo facilis culpa porro sequi ratione saepe dolor? Deleniti error, corporis
-        dicta vitae fugiat nisi nulla voluptas sint soluta nemo atque ex incidunt vero repellat perspiciatis inventore
-        accusamus odio molestias sequi magni recusandae. Officiis, quam! Sint magni, cumque eum dolor eos mollitia
-        possimus est numquam soluta iure, alias laboriosam esse provident sapiente unde asperiores quo quasi expedita
-        iste. Illo odio quis repellendus ipsum quo numquam non aperiam rerum officia ea eaque dignissimos, vero quod
-        perferendis esse blanditiis, obcaecati nam quisquam excepturi modi voluptatibus ex labore? Earum, officiis
-        dolorem, recusandae porro quos provident voluptas alias ducimus, asperiores veritatis quod sapiente ipsa
-        nesciunt et expedita praesentium cumque sint ea vitae hic commodi distinctio placeat? Consectetur hic laborum ad
-        voluptatibus aperiam accusamus sit repudiandae quaerat! Hic atque vero accusamus debitis. Nesciunt nostrum,
-        cumque iusto iure ipsam perferendis dolore et sapiente animi accusantium dolores optio consequuntur voluptatem
-        odit magni rem voluptatum aut ea quibusdam non. Quam facilis delectus, laudantium, fugit sequi asperiores
-        praesentium atque quia magni accusamus earum inventore libero consequatur cum expedita necessitatibus! Rem
-        sapiente obcaecati aperiam reprehenderit reiciendis dolor corporis tenetur sint quaerat nihil nam distinctio
-        alias aliquam ut perferendis eveniet adipisci harum, ducimus doloribus perspiciatis! Vero, alias. Culpa deleniti
-        debitis quia laborum tempore cupiditate? Exercitationem sit consequuntur facere. Consequatur corporis beatae
-        voluptatem distinctio! Impedit, a saepe cumque ducimus sunt quibusdam eum, quos, non doloribus corrupti
-        provident commodi reiciendis dolorem eaque? Fugit ipsam quibusdam aperiam quia distinctio ex nesciunt fugiat
-        perspiciatis eligendi, nostrum alias rerum, nulla, obcaecati molestias dolorum fuga adipisci ab iste autem
-        architecto delectus. Molestiae minus debitis consequatur nobis omnis ratione ab quia saepe, nam, sunt aliquam
-        itaque harum dolorum dolores qui, facilis illo. Vero explicabo culpa veniam tenetur, quibusdam vitae sunt
-        praesentium, nesciunt, ipsa nam at deleniti ex. Aliquam maiores totam autem voluptatum ea doloribus laboriosam
-        veniam cupiditate consequatur? Nemo, nostrum. Voluptate cum rerum blanditiis hic, modi odio vel nemo. Culpa,
-        voluptatibus neque rem et totam ut expedita animi corrupti laborum voluptate atque, est, molestias numquam
-        consequuntur aliquid quibusdam? Magnam sapiente nostrum fuga voluptates ipsum harum, voluptate cupiditate
-        repellat ratione ad magni debitis amet sequi ex temporibus accusamus excepturi! Incidunt voluptatem omnis
-        voluptatum rerum libero cupiditate voluptatibus sunt aliquam suscipit.
-    </p>
 </body>
 
 </html>
